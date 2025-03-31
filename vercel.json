@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "regions": ["fra1"],
+  "images": {
+    "sizes": [256, 640, 1080, 2048, 3840],
+    "remotePatterns": [
+      {
+        "protocol": "https",
+        "hostname": "**"
+      }
+    ],
+    "formats": ["image/webp"],
+    "minimumCacheTTL": 60
+  }
+}
+
